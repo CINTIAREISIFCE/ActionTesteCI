@@ -1,6 +1,6 @@
 import {soma, subtracao, multiplicacao, divisao } from "../index.js"
 describe('Testes da Calculadora', () => {
-    it('Deve retornar a soma', () => {
+    it('Deve retornar a soma de dois números', () => {
         const esperado = 12
         const retornado = soma(10,2)
         expect(retornado).toBe(esperado)
