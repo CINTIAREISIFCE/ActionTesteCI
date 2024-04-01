@@ -5,7 +5,7 @@ describe('Testes da Calculadora', () => {
         const retornado = soma(10,2)
         expect(retornado).toBe(esperado)
     })
-    it('Deve retornar a subtração', () => {
+    it('Deve retornar a subtração de dois números', () => {
         const esperado = 8
         const retornado = subtracao(10,2)
         expect(retornado).toBe(esperado)
